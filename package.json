@@ -1,0 +1,30 @@
+{
+  "name": "websockets-example",
+  "version": "1.0.0",
+  "description": "Example of how to use socket.io in a web application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W1lm3rgdz/websockets-example.git"
+  },
+  "keywords": [
+    "websockets",
+    "socket.io"
+  ],
+  "author": "Wilmer Guedez",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/W1lm3rgdz/websockets-example/issues"
+  },
+  "homepage": "https://github.com/W1lm3rgdz/websockets-example#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
